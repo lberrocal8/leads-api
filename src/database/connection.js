@@ -1,10 +1,10 @@
 import sql from 'mssql'
 
 const dbSettings = {
-  user: "mkdir-software",
-  password: "-HLew31681",
-  server: "server-mkdirsoftware.database.windows.net",
-  database: "dbleads_app",
+  user: "{yourUsername}",
+  password: "{yourPassword}",
+  server: "{yourServer}",
+  database: "{yourDatabase}",
   options: {
     encrypt: true,
     trustServerCertificate: true,
